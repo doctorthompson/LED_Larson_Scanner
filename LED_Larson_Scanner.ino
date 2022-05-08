@@ -14,6 +14,7 @@ uint16_t lead_dot = 0;            // Current Pulse Position
 
 void setup() {
   // Power up the strip
+  delay(300);
   analogWrite(POWER_PIN,0);
   delay(300);
   analogWrite(POWER_PIN,1023);
